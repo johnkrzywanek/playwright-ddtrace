@@ -1,0 +1,20 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --workers 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.45.1",
+    "dd-trace": "^5.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
